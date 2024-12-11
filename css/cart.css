@@ -51,6 +51,7 @@
   font-weight: 700;
   line-height: normal;
 }
+
 .card-menu-quantity button img {
   cursor: pointer;
   width: 24px;
@@ -62,11 +63,15 @@
   flex-direction: column;
   gap: 20px;
   width: 55%;
+  padding: 20px 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
 }
 
 .cart-item-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 20px;
   background-color: #FFF9ED;
 }
@@ -81,6 +86,7 @@
 .cart-item img {
   width: 125px;
   height: 125px;
+  border-radius: 10px;
 }
 
 .cart-item div {
@@ -98,13 +104,80 @@
 .cart-qty {
   display: flex;
   flex-direction: column;
+  align-items: end;
   justify-content: space-between;
+}
+
+.cart-delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
 }
 
 .cart-delete-button img {
   display: flex;
-  flex-direction: column;
   justify-content: end;
-  background-color: transparent;
 }
 
+.cart-right {
+  width: 40%;
+  padding: 20px 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  height: 316px;
+}
+
+.cart-right p {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cart-checkout-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 24px;
+  margin-bottom: 71px;
+}
+
+.cart-order {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-order-subtotal {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-order-subtotal p {
+  color: #000;
+  opacity: 0.4;
+  font-weight: 400;
+}
+
+.cart-order-subtotal span {
+  font-weight: 700;
+}
+
+.cart-order button {
+  cursor: pointer;
+  display: flex;
+  padding: 16px 54px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: "Abhaya Libre";
+  color: #FFF;
+  border-radius: 62px;
+  background: #372E2C;
+}
