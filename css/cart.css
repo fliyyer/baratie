@@ -17,18 +17,14 @@
   line-height: 64px;
 }
 
-.content-appetizer {
+.content-cart {
   background-color: #FFF9ED;
   padding: 35px 0;
 }
 
-.content-appetizer h1 {
-  color: #000;
-  font-size: 32px;
-  text-align: center;
-  font-style: normal;
+.content-cart h2 {
+  font-size: 40px;
   font-weight: 700;
-  line-height: normal;
 }
 
 .card-menu-quantity {
@@ -61,51 +57,54 @@
   height: 24px;
 }
 
-.quantity-menu {
+.cart-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+  width: 55%;
 }
 
-.qty-menu {
+.cart-item-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  gap: 20px;
+  background-color: #FFF9ED;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #FFF9ED;
+}
+
+.cart-item img {
+  width: 125px;
+  height: 125px;
+}
+
+.cart-item div {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Abhaya Libre";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cart-qty {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.add-to-cart {
-  border-radius: 62px;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  background: rgba(184, 142, 47, 0.34);
-  display: flex;
-  width: 129px;
-  cursor: pointer;
-  height: 33px;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
-}
-
-.main-course {
-  padding-top: 95px
-}
-
-.dessert {
-  padding-top: 95px;
-}
-
-.drinks {
-  padding-top: 95px;
-  padding-bottom: 80px;
-}
-
-.cart-checkout {
+.cart-delete-button img {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
+  background-color: transparent;
 }
-
-
 

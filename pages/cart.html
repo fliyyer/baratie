@@ -5,10 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
   </head>
   <body>
     <main class="main-container">
-      <!-- <section class="content-container"></section> -->
+      <section class="content-container">
+        <div class="content-wrapper">
+          <nav class="navbar">
+            <h1>BARATIE</h1>
+            <ul class="navbar-menu">
+              <li>Home</li>
+              <li>Shop</li>
+              <li>Reservation</li>
+              <li>Signin / Signup</li>
+            </ul>
+            <div class="cart-container">
+              <button>
+                <img src="../assets/icons/cart.svg" alt="Cart" />
+              </button>
+              <span>Cart</span>
+            </div>
+          </nav>
+        </div>
+        <div class="menu-content">
+          <h2>Cart</h2>
+        </div>
+      </section>
+
+      <!-- cart -->
+      <section class="content-cart">
+        <div class="content-wrapper">
+          <div class="separator"></div>
+          <div class="cart-checkout">
+            <h2>Your Cart</h2>
+            <div class="cart-left">
+              <div class="cart-item-container">
+                <div class="cart-item">
+                  <img src="../assets/images/main1.png" alt="makanan" />
+                  <div>
+                    <p>Gado gado Baratie style</p>
+                    <span>$29</span>
+                  </div>
+                </div>
+                <div class="cart-qty">
+                  <button class="cart-delete-button">
+                    <img src="../assets/images/delete.png" alt="" />
+                  </button>
+                  <div class="card-menu-quantity">
+                    <button>
+                      <img src="../assets/icons/minus.png" alt="minus" />
+                    </button>
+                    <p>1</p>
+                    <button>
+                      <img src="../assets/icons/plus.png" alt="plus" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-right"></div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
